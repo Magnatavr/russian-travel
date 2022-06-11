@@ -1,0 +1,23 @@
+.place__image {
+    width: 460px;
+    grid-column: 1;
+    grid-row: 2/4;
+}
+@media screen and (max-width:1140px) {
+    .place__image {
+        width: 440px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .place__image{
+        width: 340px;
+    }
+}
+
+@media screen and(max-width:568px) {
+    .place__image {
+        width: 100%;
+        grid-row: 3;
+    }
+}

@@ -3,3 +3,16 @@
     display: grid;
     grid-row-gap: 92px;
 }
+
+
+@media screen and (max-width: 980px) {
+    .content {
+        grid-row-gap: 90px;
+    }
+}
+
+@media screen and(max-width:568px) {
+    .content {
+        grid-row-gap: 64px;
+    }
+}

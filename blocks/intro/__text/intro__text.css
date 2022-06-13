@@ -1,6 +1,5 @@
 .intro__text {
     min-width: 690px;
-    min-height: 208px;
     margin: 0;
 
     font-family: 'Inter';
@@ -13,14 +12,12 @@
 @media screen and (max-width: 980px) {
     .intro__text {
         min-width: 720px;
-        min-height: 208px;
 
     }
 }
 
-@media screen and(max-width:568px) {
+@media screen and (max-width:568px) {
     .intro__text {
         max-width: 288px;
-        min-height: 520px;
     }
 }

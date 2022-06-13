@@ -7,11 +7,11 @@
 
 @media screen and (max-width: 980px) {
     .content {
-        grid-row-gap: 90px;
+        grid-row-gap: 88px;
     }
 }
 
-@media screen and(max-width:568px) {
+@media screen and (max-width:568px) {
     .content {
         grid-row-gap: 64px;
     }

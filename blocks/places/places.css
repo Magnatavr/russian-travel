@@ -16,14 +16,16 @@
 @media screen and (max-width: 980px) {
     .places {
         margin: 0 24px;
-        width: 720px;
+        max-width: 720px;
+        grid-row-gap: 73px;
 
     }
 }
 
-@media screen and(max-width:568px) {
+@media screen and (max-width:568px) {
     .places {
         width: 100%;
         margin: 0;
+        grid-row-gap: 50px;
     }
 }

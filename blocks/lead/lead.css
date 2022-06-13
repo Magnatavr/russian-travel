@@ -1,27 +1,28 @@
 .lead {
-    margin: 0 148px;
+    margin: 56px 148px 0;
     min-width: 984px;
     box-sizing: border-box;
     font-family: "inter", Arial, sans-serif;
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
 
 @media screen and (max-width:1140px) {
     .lead {
-        margin: 0 48px;
+        margin: 48px 48px 0;
         min-width: 928px;
     }
 }
 
 @media screen and (max-width: 980px) {
     .lead {
-        margin: 0;
+        margin: 48px 0 0;
         min-width: 768px;
     }
 }
 
-@media screen and(max-width:568px) {
+@media screen and (max-width:568px) {
     .lead {
         max-width: 320px;
     }

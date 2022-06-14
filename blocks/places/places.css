@@ -1,20 +1,21 @@
 .places {
     margin: 0 148px;
     width: 984px;
-
     display: grid;
     grid-row-gap: 80px;
+
 }
 
 @media screen and (max-width:1140px) {
     .places {
         margin: 0 48px;
-        width: 928px;
+        max-width: calc(100% - 96px);
     }
 }
 
 @media screen and (max-width: 980px) {
     .places {
+        max-width: calc(100% - 48px);
         margin: 0 24px;
         max-width: 720px;
         grid-row-gap: 73px;
@@ -24,7 +25,7 @@
 
 @media screen and (max-width:568px) {
     .places {
-        width: 100%;
+        max-width: 320px;
         margin: 0;
         grid-row-gap: 50px;
     }

@@ -1,8 +1,10 @@
 .intro__list-item {
+
     list-style-type: none;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
+    max-width: 320px;
     font-size: 12px;
     line-height: 18px;
+
 }

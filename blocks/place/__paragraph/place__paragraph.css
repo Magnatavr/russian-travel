@@ -1,7 +1,7 @@
 .place__paragraph {
     min-width: 100%;
     margin: 0 0 26px 0;
-
+    max-width: calc(100% - 500px);
 
     font-family: 'Inter';
     font-style: normal;
@@ -13,38 +13,42 @@
 }
 
 .place__paragraph:last-child {
-    margin: 0 0 0 0;
+    margin: 0;
 }
 
 @media screen and (max-width:1140px) {
     .place__paragraph {
-        width: 440px;
+        max-width: calc(100% - 472px);
         margin: 0 0 27px 0;
     }
 
     .place__paragraph:last-child {
-        margin: 0 0 0 0;
+        margin: 0;
     }
 }
 
 @media screen and (max-width: 980px) {
     .place__paragraph {
         font-size: 16px;
+        max-width: calc(100% - 368px);
+
         margin: 0 0 25px 0;
     }
 
     .place__paragraph:last-child {
-        margin: 0 0 0 0;
+        margin: 0;
     }
 
 }
 
 @media screen and (max-width:568px) {
     .place__paragraph {
-        margin: 0 16px 25px;
+        max-width: calc(100% - 32px);
+        margin: 0 0 25px;
+
     }
 
     .place__paragraph:last-child {
-        margin: 0 16px 0;
+        margin: 0;
     }
 }

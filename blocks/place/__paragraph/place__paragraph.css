@@ -19,7 +19,7 @@
     .place__paragraph {
         max-width: calc(100% - 83px);
         margin: 0 0 23px 0;
-        
+
     }
 
     .place__paragraph:last-child {

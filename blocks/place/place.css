@@ -12,11 +12,13 @@
         gap: 60px 32px;
 
     }
+
     .place:nth-child(2n) {
         grid-row-gap: 45px;
     }
+
     .place:nth-child(4n) {
-        grid-row-gap: 90px ;
+        grid-row-gap: 90px;
     }
 
 }
@@ -24,7 +26,7 @@
 @media screen and (max-width: 980px) {
     .place {
         gap: 48px 28px;
-       
+
 
     }
 }
@@ -37,17 +39,20 @@
         grid-template-columns: minmax(min-content, max-content);
 
     }
+
     .place:nth-child(2n) {
         grid-row-gap: 0;
-        margin: 0 0 29px ;
+        margin: 0 0 29px;
     }
+
     .place:nth-child(3n) {
         margin: 0 0 49px;
     }
+
     .place:nth-child(4n) {
-        grid-row-gap: 0 ;
+        grid-row-gap: 0;
         margin: 0 0 53px;
-        
-        
+
+
     }
 }

@@ -6,10 +6,11 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    
+
 }
+
 @media screen and (max-width:568px) {
-    .footer__copyright{
-         margin: 48px 0 0;
+    .footer__copyright {
+        margin: 48px 0 0;
     }
 }

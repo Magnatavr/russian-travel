@@ -9,6 +9,7 @@
 @media (min-width: 769px) and (max-width: 1024px) {
   .photo-grid {
     max-width: calc(100% - 96px);
+    margin: 0 74px;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 14px;
   }

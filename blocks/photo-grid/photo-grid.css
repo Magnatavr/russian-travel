@@ -9,7 +9,7 @@
 @media (min-width: 769px) and (max-width: 1024px) {
   .photo-grid {
     max-width: calc(100% - 90px);
-    margin: 0 45px;
+    margin: 0 50px;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 14px;
   }
@@ -17,16 +17,16 @@
 
 @media (min-width: 426px) and (max-width: 768px) {
   .photo-grid {
-    margin: 0 23px;
+    margin: 0 24px;
     max-width: calc(100% - 48px);
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 18px;
+    grid-gap: 16px;
   }
 }
 
 @media (max-width: 425px) {
   .photo-grid {
-    margin: 0 14px;
+    margin: 0 16px;
     max-width: calc(100% - 33px);
     grid-template-columns: 1fr;
     grid-gap: 13px 0px;

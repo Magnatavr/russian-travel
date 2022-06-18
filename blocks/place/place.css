@@ -3,7 +3,7 @@
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 1fr minmax(min-content, max-content);
-    gap: 46px 36px;
+    gap: 48px 36px;
 
 
 }
@@ -15,7 +15,7 @@
 
 @media screen and (max-width:1140px) {
     .place {
-        gap: 46px 30px;
+        gap: 47px 30px;
 
     }
 
@@ -24,31 +24,31 @@
     }
 
     .place:nth-child(3n) {
-        margin-bottom: 32px;
+        margin-bottom: 30px;
     }
 
     .place:nth-child(4n) {
-        margin-bottom: 45px;
+        margin-bottom: 40px;
     }
 
 }
 
 @media screen and (max-width: 980px) {
     .place {
-        gap: 42px 27px;
+        gap: 45px 27px;
     }
 
     .place:first-child {
         padding-top: 11px;
-        margin: 0 0 21px;
+        margin: 0 0 28px;
     }
 
     .place:nth-child(2n) {
-        margin: 0 0 0;
+        margin: 0 0 30px;
     }
 
     .place:nth-child(3n) {
-        margin: 0 0 20px;
+        margin: 0 0 27px;
     }
 }
 
@@ -63,21 +63,21 @@
 
     .place:first-child {
         padding-top: 6px;
-        margin: 0 0 45px;
+        margin: 0 0 50px;
     }
 
     .place:nth-child(2n) {
         grid-row-gap: 0;
-        margin: 0 0 18px;
+        margin: 0 0 24px;
     }
 
     .place:nth-child(3n) {
-        margin: 0 0 45px;
+        margin: 0 0 50px;
     }
 
     .place:nth-child(4n) {
         grid-row-gap: 0;
-        margin: 0 0 43px;
+        margin: 0 0 50px;
 
     }
 

@@ -1,6 +1,6 @@
 .footer__links-item {
     list-style-type: none;
-    margin-right: 15px;
+    margin-right: 19px;
 }
 
 .footer__links-item:last-child {
@@ -9,7 +9,7 @@
 
 @media screen and (max-width:1140px) {
     .footer__links-item {
-        margin-right: 15px;
+        margin-right: 19px;
     }
 
     .footer__links-item:last-child {
@@ -19,7 +19,7 @@
 
 @media screen and (max-width:568px) {
     .footer__links-item {
-        margin-top: 30px;
+        margin-top: 32px;
 
     }
 

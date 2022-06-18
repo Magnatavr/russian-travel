@@ -3,7 +3,13 @@
     font-weight: 900;
     font-size: 54px;
     line-height: 107%;
-    margin: 0 0 40px;
+    margin: 0 0 35px;
+}
+
+@media screen and (max-width:1140px) {
+    .intro__title {
+        margin: 0 0 38px;
+    }
 }
 
 @media screen and (max-width: 980px) {
@@ -16,7 +22,7 @@
 
 @media screen and (max-width:568px) {
     .intro__title {
-        max-width: calc(100% - 32px);
+        max-width: calc(100% - 45px);
 
         font-size: 32px;
         line-height: 35px;

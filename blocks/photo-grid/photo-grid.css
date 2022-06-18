@@ -8,8 +8,8 @@
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .photo-grid {
-    max-width: calc(100% - 96px);
-    margin: 0 74px;
+    max-width: calc(100% - 90px);
+    margin: 0 45px;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 14px;
   }
@@ -17,18 +17,18 @@
 
 @media (min-width: 426px) and (max-width: 768px) {
   .photo-grid {
-    margin: 0 24px;
+    margin: 0 23px;
     max-width: calc(100% - 48px);
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 16px;
+    grid-gap: 18px;
   }
 }
 
 @media (max-width: 425px) {
   .photo-grid {
-    margin: 0 16px;
-    max-width: calc(100% - 32px);
+    margin: 0 14px;
+    max-width: calc(100% - 33px);
     grid-template-columns: 1fr;
-    grid-gap: 12px 0px;
+    grid-gap: 13px 0px;
   }
 }

@@ -1,14 +1,16 @@
 .intro {
     box-sizing: border-box;
     max-width: 690px;
-    margin: 0 auto 0 148px;
+    margin: 0 auto 0 144px;
+    padding-top: 9px;
     font-family: "inter", Arial, sans-serif;
 
 }
 
 @media screen and (max-width:1140px) {
     .intro {
-        margin: 0 auto 0 76px;
+        padding-top: 8px;
+        margin: 0 auto 0 44px;
 
     }
 }
@@ -16,14 +18,15 @@
 @media screen and (max-width: 980px) {
     .intro {
         max-width: calc(100% - 48px);
-        margin: 0 24px;
+        padding-top: 6px;
+        margin: 0 20px 37px;
     }
 }
 
 @media screen and (max-width:568px) {
     .intro {
         max-width: 320px;
-        margin: 0 16px;
+        margin: 0 12px 22px;
 
     }
 }

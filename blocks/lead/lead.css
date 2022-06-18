@@ -1,5 +1,5 @@
 .lead {
-    margin: 0 148px 0;
+    margin: 0 146px 0;
     max-width: calc(100% - 296px);
     box-sizing: border-box;
     font-family: "inter", Arial, sans-serif;
@@ -11,16 +11,22 @@
 
 @media screen and (max-width:1140px) {
     .lead {
-        margin: 0 74px;
+        margin: 0 44px;
         max-width: calc(100% - 96px);
         max-width: 928px;
-
     }
 }
 
 @media screen and (max-width: 980px) {
     .lead {
-        margin: 0;
+        margin: 0 0 39px;
         max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .lead {
+        margin: 0 0 25px;
+        display: block;
     }
 }

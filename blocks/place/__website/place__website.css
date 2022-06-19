@@ -15,7 +15,7 @@
 
 @media (min-width: 570px) and (max-width: 740px) {
     .place__website {
-        max-width: calc(100% -416px);
+        max-width: calc(100% - 416px);
     }
 }
 

@@ -17,10 +17,17 @@
     }
 }
 
+@media (min-width: 981px) and (max-width: 1027px) {
+    .lead {
+        margin: 0 auto;
+    }
+}
+
 @media screen and (max-width: 980px) {
     .lead {
         margin: 0 0 52px;
         max-width: 100%;
+
     }
 }
 

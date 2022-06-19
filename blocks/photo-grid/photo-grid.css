@@ -9,23 +9,19 @@
 @media (min-width: 1150px) and (max-width: 1280px) {
   .photo-grid {
     max-width: calc(100% - 96px);
+    margin: 0 48px 5px;
   }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .photo-grid {
     max-width: calc(100% - 90px);
-    margin: 0 50px;
+    margin: 0 50px 2px;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 14px;
   }
 }
 
-@media (min-width: 981px) and (max-width: 1027px) {
-  .photo-grid {
-    margin: 0 auto;
-  }
-}
 
 @media (min-width: 426px) and (max-width: 768px) {
   .photo-grid {

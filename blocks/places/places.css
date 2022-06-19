@@ -1,5 +1,5 @@
 .places {
-    margin: 5px 148px 10px;
+    margin: 5px 148px 12px;
     width: 984px;
     display: grid;
     grid-row-gap: 80px;
@@ -9,7 +9,7 @@
 
 @media (min-width: 1150px) and (max-width: 1280px) {
     .places {
-        margin: 0 auto;
+        margin: 0 auto 12px;
     }
 }
 
